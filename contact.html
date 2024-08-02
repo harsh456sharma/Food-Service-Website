@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us | Foodies</title>
+        <link rel="stylesheet" href="contact.css">
+        <link rel="icon" href="./Images/Restaurants/download.png" type="image/icon type">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+<body>
+ <!--Header section start-->
+ <header>
+    <a href="#" class="logo"><i class="fa fa-utensils"></i>Foodwala.</a>
+    <nav class="navbar">
+        <a href="./home.html">Home</a>
+        <a class="active" href="./dishes.html">dishes</a>
+        <a href="#" onclick="openAbout()">about</a>
+        <a class="feed" id="feedback">feedback</a>
+        <a href="./contact.html" >Contact us</a>
+        <a href="#">Orders</a>
+    </nav>
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <a href="login.html" class="fas fa-sign-in-alt">Login</a>
+        
+    </div>
+<div class="form1">
+     <!--search form-->
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close1"></i>
+</form>
+<!--Search Form ends-->
+</header>
+
+<div class="row">
+<div class="box">
+<h2><i class="fas fa-phone"></i>  Contact:9835627185</h2>
+<br>
+<h2><i class="fas fa-at"></i> Email: harsh8sharma5@gmail.com</h2>
+<br>
+<h2><i class="fa fa-map-marker"></i>Mahavir Nagar Dumardaga <br>Ranchi Jharkhand ,<br> Telangana - 835217</h2>
+             
+</div>               
+</div>
+<div class="contact">
+<h1>Contact Us</h1>
+
+<form class="form" action="./home.html" id="form">
+<label for="uname">Name:</label>
+<input type="text" class="uname" name="name" placeholder="Enter Your Full Name">
+
+<br>
+
+  <textarea name="paragraph_text" class="formtext" cols="50" rows="10" placeholder="Enter Your Query here......"></textarea>
+  
+</textarea>
+<br>
+<input type="submit" class="submit" onclick="myFunction()">
+</form>
+</div>
+</div>
+
+</body>
+
+<script>
+function myFunction() {
+    document.getElementById("form").reset();
+}
+
+</script>
